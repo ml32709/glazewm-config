@@ -1,2 +1,5 @@
 # ignore zebar temp files
 zebar/tmp-*/
+
+# ignore error log
+glazewm/errors.log

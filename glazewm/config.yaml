@@ -239,6 +239,14 @@ keybindings:
   - commands: ['wm-exit']
     bindings: ['alt+shift+e']
 
+  # Exit zebar
+  - commands: ['shell-exec taskkill /IM zebar.exe /F']
+    bindings: ['alt+shift+z']
+    
+  # Start zebar
+  - commands: ['shell-exec zebar']
+    bindings: ['alt+z']
+
   # Re-evaluate configuration file.
   - commands: ['wm-reload-config']
     bindings: ['alt+shift+r']

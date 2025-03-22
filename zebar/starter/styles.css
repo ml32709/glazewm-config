@@ -5,11 +5,13 @@
 @import 'https://www.nerdfonts.com/assets/css/webfont.css';
 
 i {
+  /** logos */
   color: rgb(115 130 175 / 95%);
   margin-right: 7px;
 }
 
 body {
+  /** text */
   color: rgb(255 255 255 / 90%);
   font-family: ui-monospace, monospace;
   font-size: 12px;
@@ -31,7 +33,9 @@ body,
 
 #root {
   border-bottom: 1px solid rgb(255 255 255 / 5%);
-  background: linear-gradient(rgb(0 0 0 / 90%), rgb(5 2 20 / 85%));
+  /** bar background */
+  background: linear-gradient(rgb(0 0 0 / 90%), rgb(5 2 20 / 85%)); 
+  /** background: linear-gradient(rgb(0 0 0 / 0%), rgb(5 2 20 / 0%)); */
 }
 
 .app {
@@ -74,6 +78,7 @@ body,
 }
 
 .workspace {
+  /** workspace text */
   background: rgb(255 255 255 / 5%);
   margin-right: 4px;
   padding: 4px 8px;
@@ -88,6 +93,7 @@ body,
 
   &.focused,
   &:hover {
+	/** focused workspace background */
     background: rgb(75 115 255 / 50%);
   }
 }

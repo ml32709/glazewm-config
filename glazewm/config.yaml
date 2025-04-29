@@ -262,6 +262,10 @@ keybindings:
   - commands: ['shell-exec %ProgramFiles%/WezTerm/wezterm-gui.exe']
     bindings: ['alt+enter']
 
+  # Launch browser
+  - commands: ['shell-exec %ProgramFiles%/BraveSoftware/Brave-Browser/Application/brave.exe']
+    bindings: ['alt+b']
+
   # Focus the next/previous active workspace defined in `workspaces` config.
   - commands: ['focus --next-active-workspace']
     bindings: ['alt+n']
